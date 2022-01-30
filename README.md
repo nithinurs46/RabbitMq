@@ -14,3 +14,12 @@ Authentication and Authorization –
 1.	In dashboard, goto admin tab and create a new user. Guest user works only with localhost
 2.	Click on the user and provide the required permissions
 
+If message is published from rabbitmq dashboard, content_type should be provided. __TypeId__ = com.dto.Book should also be provided and indicates the payload type.
+
+Payload --
+
+{
+    "bookName":"book-1",
+    "authorName":"author-1"
+}
+
